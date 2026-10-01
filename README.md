@@ -11,6 +11,7 @@ A multilingual command-line coffee machine simulator built with Java. The applic
 - Countdown performed on a separate thread
 - Audio playback with Java Sound
 - Application event logging
+- Automated unit tests with JUnit 5
 
 ## Running the application
 
@@ -21,7 +22,12 @@ mvn clean package
 java -cp target/classes com.killianhewson.coffeemachine.Main
 ```
 
+Run the automated tests with:
+
+```bash
+mvn test
+```
+
 ## Project background
 
 This application was originally developed as a TU Dublin Java programming assignment. This repository contains a portfolio version that restructures and refines the original work. The coursework-provided logger was replaced with an independently written logging utility for this version.
-
